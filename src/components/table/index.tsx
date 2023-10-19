@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { ReduxStateType, DispatchType, ExpenseList } from '../../types';
+import { ReduxStateType, DispatchType } from '../../types';
 import { walletUpdate } from '../../redux/actions';
 import './index.css';
 
