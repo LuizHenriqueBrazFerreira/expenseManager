@@ -8,16 +8,6 @@ type TableStatusType = { changeStatus :(x:boolean) => void, getID: (x:string) =>
 function Table({ changeStatus, getID }:TableStatusType) {
   const { expenses } = useSelector((state:ReduxStateType) => state.wallet);
 
-  const INITIAL_FORM = {
-    id: '0',
-    value: '',
-    description: '',
-    currency: 'USD',
-    method: 'Dinheiro',
-    tag: 'Alimentação',
-    exchangeRates: {},
-  };
-
   const dispatch:DispatchType = useDispatch();
 
   const handleClick = (id:string) => {

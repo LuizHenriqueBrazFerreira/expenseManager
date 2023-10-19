@@ -10,16 +10,6 @@ type EditType = {
 };
 
 function EditExpense({ status, id }:EditType) {
-  const INITIAL_FORM = {
-    id: '0',
-    value: '',
-    description: '',
-    currency: 'USD',
-    method: 'Dinheiro',
-    tag: 'Alimentação',
-    exchangeRates: {},
-  };
-
   const { currencies, expenses } = useSelector((state:ReduxStateType) => state.wallet);
 
   const findExpense = expenses.find((expense) => expense.id === id);
