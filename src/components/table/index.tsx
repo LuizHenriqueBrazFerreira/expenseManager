@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { ReduxStateType, DispatchType, ExpenseList } from '../../types';
+import { ReduxStateType, DispatchType } from '../../types';
 import { walletUpdate } from '../../redux/actions';
 import './index.css';
 
@@ -7,16 +7,6 @@ type TableStatusType = { changeStatus :(x:boolean) => void, getID: (x:string) =>
 
 function Table({ changeStatus, getID }:TableStatusType) {
   const { expenses } = useSelector((state:ReduxStateType) => state.wallet);
-
-  const INITIAL_FORM = {
-    id: '0',
-    value: '',
-    description: '',
-    currency: 'USD',
-    method: 'Dinheiro',
-    tag: 'Alimentação',
-    exchangeRates: {},
-  };
 
   const dispatch:DispatchType = useDispatch();
 
