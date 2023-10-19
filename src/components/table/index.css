@@ -1,0 +1,86 @@
+table {
+  position: absolute;
+  z-index: 1;
+  width: 1037px;
+  height: auto;
+  background: #003BE5;
+  border-radius: 10px;
+  top: 390px;
+  color: white;
+}
+
+.table table thead {
+  display: flex;
+  
+  /* box-shadow: -4px 9px 13px 0px rgba(3, 107, 82, 0.30); */
+  background: #003BE5;
+  border-radius: 10px;
+  width: 1037px;
+  height: 26.6px;
+  justify-content: space-between;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  flex-direction: column;
+  
+}
+
+.table table thead tr {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  flex-shrink: 0;
+  line-height: 13px;
+}
+
+table thead tr th {
+  border-left: 1px white solid;
+  border-bottom: 2px white solid;
+}
+
+.description-header {
+  border-left: 0;
+}
+
+tbody {
+  height: auto;
+}
+
+.table-row {
+  background: #003BE5;
+  box-shadow: -4px 9px 13px 0px rgba(3, 107, 82, 0.30);
+  width: 110.933px;
+  height: 26.6px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;  
+}
+
+.table-row td {
+  width: 110.933px;
+  border-top: 1px solid #2FC18C;
+  height: 46.6px;
+  color: #2FC18C;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+#btn-edit {
+  background: #2FC18C;
+  color: white;
+  border: 1px #2FC18C solid;
+}
+
+#btn-delete {
+  background: rgb(232, 15, 15);
+  color: white;
+  border: 1px rgb(232, 15, 15) solid;
+}

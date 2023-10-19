@@ -1,0 +1,60 @@
+body {
+  background: url('../../../imgs/foto\ fundo.png'), #2FC18C 100% / cover no-repeat;
+}
+
+.fields-container {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  width: 1037px;
+  height: 482px;
+  box-shadow: -4px 9px 13px 0px rgba(5, 18, 54, 0.40);
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  top: 50px;
+  margin: auto;
+  
+}
+
+.field-cost {
+  display: flex;
+  position: relative;
+  width: 180px;
+  height: 14px;
+  color: #003BE5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  top: 88px;
+  left: 250px;
+  background: white;
+}
+
+
+.field-cost span{
+  display: flex;
+  position: relative;
+  width: 130px;
+  height: 14px;
+  color: #003BE5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  /* top: 88px; */
+  /* left: 592px; */
+  background: white;
+}
+
+.field-email {
+  color: #2FC18C;
+  position: relative;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  width: 123px;
+  height: 14px;
+  top: 88px;
+  left: 200px;
+  background: white;
+}
